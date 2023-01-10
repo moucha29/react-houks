@@ -6,7 +6,7 @@ const data =[{
     title : "The Transporter",
     description : "transportation, the movement of goods and persons from place to place and the various means by which such movement is accomplished. The growth of the ability—and the need—to transport large quantities of goods or numbers of people over long distances at high speeds in comfort and safety has been an index of civilization and in particular of technological progress.",
     posterUrl : "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQGmbA31yu_iLejZJjDB79cAqgfcIuJyfYHOGm570-feIK3KBBl",
-    trailerUrl : "https://www.youtube.com/watch?v=Uv554B7YHk4",
+    trailerUrl : "https://www.youtube.com/watch?v=_KFOYFBh2QM",
     rating : 6
   },
   

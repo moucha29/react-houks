@@ -1,17 +1,13 @@
-import data from './data'
-import {useState} from 'react'
+import react from 'react'
 import MovieLists from './Components/MovieLists';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AddMovie from './Components/AddMovie';
 import Filtre from './Components/Filtre';
-import App from './App'
-import index from './index';
 
 
-function Router() {
-  const [search,setSearch] = useState('');
-  const [rate, setRate] = useState(0)
-  const [movies,setMovies] = useState(data)
+function FilmMovies( {movies, setMovies}) {
+  const [search,setSearch] = react.useState('');
+  const [rate, setRate] = react.useState(0)
   const AddNewMovie = (kk)=>{
       setMovies([...movies, kk])
   }
@@ -26,4 +22,4 @@ function Router() {
   );
 }
 
-export default Router;
+export default FilmMovies;
